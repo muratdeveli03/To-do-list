@@ -7,7 +7,7 @@ addTaskButton.addEventListener("click", function() {
   
   if (taskValue) {
     const taskItem = document.createElement("li");
-    taskItem.innerHTML = `${taskValue} <button type="button" class="deleteTaskButton">Delete</button>`;
+    taskItem.innerHTML = `${taskValue} <button type="button" class="deleteTaskButton">Delete / Sil</button>`;
     taskList.appendChild(taskItem);
     taskInput.value = "";
 
