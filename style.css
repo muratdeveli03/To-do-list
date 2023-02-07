@@ -32,6 +32,8 @@ body {
     margin-top: 10px;
     display: flex;
     justify-content: space-between;
+    font-style:normal;
+    font-size: larger;
   }
   
   button[type="button"].deleteTaskButton {
